@@ -1,0 +1,39 @@
+header.maindisplay {
+  .HomeDisplay {
+    height: 45vh;
+    width: 100vw;
+    background-color: rgb(109, 47, 109);
+    margin-top: 10px;
+    display: flex;
+    .site-nav {
+      background-color: #fff;
+      height: 45vh;
+      width: 15vw;
+      margin-left: 8%;
+    }
+    .product-type {
+      text-decoration: none;
+
+      list-style: none;
+      font-size: 0.9rem;
+      display: flex;
+      flex-direction: column;
+      margin-top: 12px;
+      margin-left: 7px;
+      justify-content: space-evenly;
+      opacity: 0.5;
+      transition: background-color 0.25s ease-in-out;
+      &:hover {
+        background-color: lighten($dark, 85%);
+      }
+    }
+    .product-display {
+      height: 45vh;
+      width: 70vw;
+    }
+    .product {
+      width: 70vw;
+      height: 45vh;
+    }
+  }
+}

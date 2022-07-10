@@ -1,0 +1,25 @@
+.topBar {
+  background-color: $gray-1;
+  width: 100vw;
+  height: 1.75rem;
+  .topBar__content {
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    .content__link {
+      height: 100%;
+      width: max-content;
+      padding: 0 1.5rem;
+      font-size: 0.75rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+      &.active__link {
+        color: #f57224;
+      }
+    }
+  }
+}
